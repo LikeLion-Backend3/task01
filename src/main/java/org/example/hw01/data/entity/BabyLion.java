@@ -21,10 +21,13 @@ public class BabyLion {
     private String name;
 
     @Column(nullable = false, unique = true)
+    private String major;
+
+    @Column(nullable = false, unique = true)
     private String email;
 
     @Column(nullable = false, unique = true)
-    private String number;
+    private String phonenum;
 
     @Column(nullable = false, unique = true)
     private String password;
